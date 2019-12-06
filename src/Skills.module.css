@@ -1,0 +1,86 @@
+.skillsBlock {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    /*background: linear-gradient(188deg, rgba(15,9,148,1) 0%, rgba(2,0,36,1) 74%);*/
+    background: linear-gradient(188deg, rgba(0,0,9,45) 22%, rgba(8,9,148,1) 51%, rgba(0,0,31,1) 79%);
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.skills {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.htmlLogoImage, .jsLogoImage, .reactLogoImage{
+    width: 130px;
+    height: 110px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.reactLogoImage{
+    background-image: url("./images/reactLogo.png");
+}
+.jsLogoImage{
+    background-image: url("./images/jsLogo.png");
+}
+.htmlLogoImage{
+    background-image: url("./images/htmlLogo.png");
+}
+
+.spanMySkills {
+    padding-bottom: 130px;
+    padding-top: 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nameOfSkill {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 20pt;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.descriptionOfSkill {
+    font-family: "Roboto", sans-serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+.skill:hover .descriptionOfSkill,
+.skill:hover .nameOfSkill,
+.spanMySkills:hover {
+    text-shadow: 1px 0 #0ce6b1;
+}
+
+.skill:hover .reactLogoImage,
+.skill:hover .jsLogoImage,
+.skill:hover .htmlLogoImage{
+    box-shadow: 0px 0px 147px 20px #09d3ac;
+}
