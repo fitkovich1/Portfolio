@@ -11,7 +11,7 @@ function Footer() {
                   integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
                   crossOrigin="anonymous"/>
             <span className="spanInitials">Фиткович Николай</span>
-            <ul className="container">
+            <ul className="containerFooter">
                 <li><a href="https://vk.com/volleymen"> <i className="fa fa-vk"></i> </a></li>
                 <li><a href="https://www.instagram.com/nikola10fit_/"> <i className="fa fa-instagram"></i> </a></li>
                 <li><a href="https://t.me/Fitkovich_Nikolai"> <i className="fa fa-telegram"></i> </a></li>
