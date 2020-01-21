@@ -19,34 +19,13 @@
     color: white;
     margin: 100px 0;
 }
-/*.photo {
-    position: relative;
-}
-.photo::before {
-    content: "";
-    position: absolute;
-    width: 205px;
-    height: 335px;
-    border: 4px solid #09d3ac;
-    left: 10px;
-    top: -20px;
-    z-index: 0;
-}
-.photo img{
-    height: 300px;
-    width: 200px;
-    z-index: 2;
-    position: relative;
-}*/
 .hello{
     font-family: "Roboto",sans-serif;
     font-weight: 400;
     line-height: 1.2;
     font-size: 14pt;
 }
-.greeting:hover{
-    text-shadow: 1px 0 #0ce6b1;
-}
+
 .name{
     font-family: 'Montserrat', sans-serif;
     font-size: 32pt;
@@ -72,8 +51,8 @@
 }
 
 .card {
-    width: 340px;
-    height: 480px;
+    width: 250px;
+    height: 355px;
     position: absolute;
     cursor: pointer;
     top: 50%;
@@ -96,7 +75,7 @@
     -webkit-backface-visibility: hidden;
     transition: transform .5s ease;
     border-radius: 10px;
-    background: linear-gradient(#D6D6D6, #F2F2F2);
+    background: linear-gradient(#333, #232323);
 }
 
 .front {
@@ -144,4 +123,14 @@
     background-color: #444;
     color: #fff;
 }
+@media (max-width: 950px) {
+    .container {
+        height: 800px;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
+    .card{
+        top: 90%;
+    }
+}

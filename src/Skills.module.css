@@ -2,8 +2,8 @@
     min-height: 100vh;
     display: flex;
     justify-content: center;
-    /*background: linear-gradient(188deg, rgba(15,9,148,1) 0%, rgba(2,0,36,1) 74%);*/
-    background: linear-gradient(188deg, rgba(0,0,9,45) 22%, rgba(8,9,148,1) 51%, rgba(0,0,31,1) 79%);
+    /*background: linear-gradient(188deg, rgba(0,0,9,45) 22%, rgba(8,9,148,1) 51%, rgba(0,0,31,1) 79%);*/
+    background-color: #121212;
 }
 
 .container {

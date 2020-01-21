@@ -20,30 +20,29 @@
     justify-content: center;
     min-height: 350px;
     flex-direction: column;
-    background: linear-gradient(171deg, rgba(15,9,148,1) 39%, rgba(19,0,36,1) 60%);
-    /*min-height: 100vh;
-    background: linear-gradient(45deg, #ee0979, #ff6a00);*/
+    background-color: #232323;
 }
 
 .containerFooter {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .containerFooter li {
     margin: 50px;
 }
 .containerFooter a {
     text-decoration: none;
-    background-color: #180037;
-    color: #27c3fe;
+    background-color: #232323;
+    color: white;
     width: 100px;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30%;
-    box-shadow: 4px 5px 20px -5px #340122;
+    box-shadow: 4px 5px 20px -5px black;
     position: relative;
     overflow: hidden;
 }
@@ -56,14 +55,14 @@
     content: '';
     width: 120%;
     height: 120%;
-    background-color: #33011a;
+    background-color: black;
     left: -110%;
     top: 90%;
     transform: rotate(45deg);
 }
 .containerFooter a:hover i {
     transform: scale(1.3);
-    color: #f1f1f1;
+    color: #00FFEE;
 }
 .containerFooter a:hover:before {
     animation-name: hover;
@@ -88,86 +87,3 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*
-.container{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-}
-.imgBlock{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.instaLogo{
-    background-image: url("./images/instaLogo.png");
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-.tgLogo{
-    background-image: url("./images/tgLogo.png");
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-.viberLogo{
-    background-image: url("./images/viberLogo.svg");
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-.vkLogo{
-    background-image: url("./images/vkLogo.svg");
-    width: 100px;
-    height: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 20px;
-}
-.imgBlock:hover .instaLogo,
-.imgBlock:hover .tgLogo,
-.imgBlock:hover .viberLogo,
-.imgBlock:hover .vkLogo{
-    box-shadow: 0px 0px 5px 5px #09d3ac;
-}
-
-
-.spanInitials{
-    padding: 30px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
-    font-weight: 600;
-    text-align: center;
-}
-.spanEndFooter{
-    padding: 10px;
-    font-family: "Roboto", sans-serif;
-    font-size: 10pt;
-    font-weight: 300;
-}*/

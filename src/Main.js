@@ -40,10 +40,6 @@ function Main() {
                         </div>
                     </div>
                 </div>
-                {/*<div className={styles.photo}>
-                    <img src="https://i.pinimg.com/originals/05/3c/c2/053cc2353dd46da96c04ed853c28dd03.jpg"
-                         alt="Мое фото"/>
-                </div>*/}
             </div>
         </div>
     );

@@ -1,5 +1,5 @@
 .myProjects{
-    padding: 100px;
+    margin-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 18pt;
     font-weight: 600;
@@ -7,14 +7,13 @@
     color: white;
 }
 .projectsBlock{
-    background: linear-gradient(192deg, rgba(0,0,32,2) 48%, rgba(15,9,148,1) 64%);
+    background-color: #232323;
+   /* background: linear-gradient(192deg, rgba(0,0,32,2) 48%, rgba(15,9,148,1) 64%);*/
     margin: 0;
-    padding: 0;
+    padding: 120px 0 100px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
 }
 .container {
     position: relative;
@@ -28,26 +27,27 @@
 
 .project {
     position: relative;
-    padding: 200px 20px 20px;
+    padding: 170px 20px 20px;
     box-sizing: border-box;
     color: #fff;
-    width: 260px;
-    min-height: 380px;
+    width: 230px;
+    min-height: 340px;
     cursor: pointer;
-    background-color: #040a20;
+    background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
     border: 1px solid rgba(0, 0, 0, 0.5);
     z-index: 2;
 }
+
 .project h2 {
     position: absolute;
     top: 80px;
     right: 20px;
     margin: 0;
     padding: 0;
-    font-size: 160px;
+    font-size: 150px;
     line-height: 1.1;
     color: rgba(255, 255, 255, 0.06);
     transition: .5s;
@@ -88,9 +88,11 @@
 .projects {
     position: relative;
     display: flex;
+    margin: 50px 6px;
 }
 .projects:hover .project h2 {
-    top: 0;
+    top: 10px;
+    color: #00FFEE;
 }
 .projects:hover .project button {
     transform: translate(0);
@@ -118,13 +120,14 @@
     z-index: 1;
 }
 .projects:nth-child(1):before {
-    background: linear-gradient(#ff0000, #0037ff);
+    background: linear-gradient(#000000, #121212);
 }
 .projects:nth-child(2):before {
-    background: linear-gradient(#d8ff00, #17f4ff);
+    background: linear-gradient(#000000, #121212);
 }
 .projects:nth-child(3):before {
-    background: linear-gradient(#af36ff, #ff0070);
+    background: linear-gradient(#000000, #121212);
+    /*background: linear-gradient(#af36ff, #ff0070);*/
 }
 
 
