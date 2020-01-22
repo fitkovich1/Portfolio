@@ -42,12 +42,10 @@
 .spanContacts{
     margin-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 36pt;
     font-weight: 600;
+    background: transparent url(http://themes.dhrubok.website/porfo/wp-content/uploads/2017/10/title-bg-1.png) 0 0/auto repeat-y scroll;
 }
-.spanContacts:hover{
-     text-shadow: 1px 0 #0ce6b1;
- }
 
 .buttonSend {
     font-family: "Monserrat", sans-serif;
@@ -61,7 +59,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     border: 2px solid #ffffff;
-    padding: 14px 30px 14px 30px;
+    padding: 14px 66px 14px 62px;
 }
 .buttonSend:hover {
     color: #ffffff;
@@ -73,8 +71,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 50px 0px;
-
+    margin: 50px 0;
 }
 
 @media (max-width: 600px) {

@@ -1,14 +1,14 @@
 .myProjects{
     margin-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 36pt;
     font-weight: 600;
     text-align: center;
     color: white;
+    background: transparent url(http://themes.dhrubok.website/porfo/wp-content/uploads/2017/10/title-bg-1.png) 0 0/auto repeat-y scroll;
 }
 .projectsBlock{
     background-color: #232323;
-   /* background: linear-gradient(192deg, rgba(0,0,32,2) 48%, rgba(15,9,148,1) 64%);*/
     margin: 0;
     padding: 120px 0 100px;
     display: flex;

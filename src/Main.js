@@ -11,9 +11,9 @@ function Main() {
                   crossOrigin="anonymous"/>
             <div className="container">
                 <div className="greeting">
-                    <span className="hello">Привет!</span>
-                    <span className="name">Я Николай Фиткович</span>
-                    <span className="whoAmI">Я front-end разработчик</span>
+                    <span className="hello">Hello!</span>
+                    <span className="name">I'm Nikolas Fitkovich</span>
+                    <span className="whoAmI">FRONTEND DEVELOPER</span>
                 </div>
 
                 <div className="wrapper">
@@ -24,8 +24,8 @@ function Main() {
                         <div className="back">
                             <div className="content">
                                 <h1>
-                                    Fitkovich Nikolai
-                                    <span>Front-end Developer</span>
+                                    Fitkovich Nikolas
+                                    <span>Frontend Developer</span>
                                 </h1>
                                 <ul className="socials">
                                     <li>

@@ -4,7 +4,10 @@
     justify-content: space-around;
 }
 .link{
-    color: #0ce6b1;
+    color: white;
     text-decoration: none;
     font: menu;
+}
+.link:hover{
+    color: #00FFEE;
 }

@@ -5,7 +5,7 @@ import Project from "./Project";
 function Projects() {
     return (
         <div className={styles.projectsBlock} id="2">
-            <span className={styles.myProjects}>Мои работы</span>
+            <span className={styles.myProjects}>My projects</span>
             <div className={styles.container}>
                 <Project />
             </div>

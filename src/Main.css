@@ -18,24 +18,32 @@
     flex-direction: column;
     color: white;
     margin: 100px 0;
+    align-items: center;
 }
 .hello{
-    font-family: "Roboto",sans-serif;
-    font-weight: 400;
-    line-height: 1.2;
-    font-size: 14pt;
+    color: #909090;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
 }
 
 .name{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
-    font-weight: 800;
-    margin: 14px 0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    line-height: 56px;
+    text-align: left;
+    margin-top: 15px;
 }
 .whoAmI{
-    font-family: "Roboto",sans-serif;
-    font-size: 17pt;
-    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    color: #909090;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    line-height: 24px;
 }
 
 * {
@@ -123,7 +131,7 @@
     background-color: #444;
     color: #fff;
 }
-@media (max-width: 950px) {
+@media (max-width: 1080px) {
     .container {
         height: 800px;
         flex-direction: column;
@@ -132,5 +140,15 @@
 
     .card{
         top: 90%;
+    }
+}
+@media (max-width: 770px) {
+    .name{
+        text-align: center;
+    }
+}
+@media (max-width: 410px) {
+    .card{
+        margin-top: 60px;
     }
 }
