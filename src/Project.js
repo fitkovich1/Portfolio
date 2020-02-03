@@ -6,9 +6,9 @@ function Project() {
             <div className={styles.projects}>
                 <div className={styles.project}>
                     <h2>01</h2>
-                    <h3>Dog-game</h3>
+                    <h3>Joker-game</h3>
                     <p>Project description</p>
-                    <button>Watch</button>
+                    <button><a href='https://fitkovich1.github.io/dog-game/'>Watch</a></button>
                 </div>
             </div>
 
@@ -19,7 +19,6 @@ function Project() {
                     <p>Project description</p>
                     <button>Watch</button>
                 </div>
-
             </div>
 
             <div className={styles.projects}>
@@ -29,7 +28,15 @@ function Project() {
                     <p>Project description</p>
                     <button><a href='https://fitkovich1.github.io/CounterRedux/'>Watch</a></button>
                 </div>
+            </div>
 
+            <div className={styles.projects}>
+                <div className={styles.project}>
+                    <h2>04</h2>
+                    <h3>Tic-tac-toe</h3>
+                    <p>Project description</p>
+                    <button><a href='https://fitkovich1.github.io/tic-tac-toe/'>Watch</a></button>
+                </div>
             </div>
         </>
     );

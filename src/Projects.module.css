@@ -136,6 +136,9 @@
     background: linear-gradient(#000000, #121212);
     /*background: linear-gradient(#af36ff, #ff0070);*/
 }
+.projects:nth-child(4):before {
+    background: linear-gradient(#000000, #121212);
+}
 
 
 /*до тех пор пока ширина 500 то применяем стили в скобках*/

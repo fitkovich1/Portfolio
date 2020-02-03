@@ -4,19 +4,22 @@ import styles from './Contacts.module.css';
 function Contacts() {
   return (
     <div className={styles.contacts} id="3">
-      <div className={styles.container}>
+      <form className={styles.container}
+            action="https://formspree.io/xbjoodrz"
+            method="POST"
+      >
         <span className={styles.spanContacts}>Contacts</span>
         <div className={styles.formItems}>
           <div className={styles.input}>
-            <input value='Name'/>
-            <input value='E-mail:'/>
+            <input name={'name'} placeholder='Name'/>
+            <input name={'email'} placeholder='E-mail:'/>
           </div>
           <div className={styles.input}>
-            <textarea>Enter your text</textarea>
+            <textarea name={'messages'} placeholder={'Enter your text'}/>
           </div>
         </div>
-        <button className={styles.buttonSend}>Send</button>
-      </div>
+        <button type={'submit'} className={styles.buttonSend}>Send</button>
+      </form>
     </div>
   );
 }
