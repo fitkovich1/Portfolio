@@ -6,18 +6,18 @@ function Project() {
             <div className={styles.projects}>
                 <div className={styles.project}>
                     <h2>01</h2>
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                    <button>Смотреть</button>
+                    <h3>Dog-game</h3>
+                    <p>Project description</p>
+                    <button>Watch</button>
                 </div>
             </div>
 
             <div className={styles.projects}>
                 <div className={styles.project}>
                     <h2>02</h2>
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                    <button>Смотреть</button>
+                    <h3>TodoList</h3>
+                    <p>Project description</p>
+                    <button>Watch</button>
                 </div>
 
             </div>
@@ -25,9 +25,9 @@ function Project() {
             <div className={styles.projects}>
                 <div className={styles.project}>
                     <h2>03</h2>
-                    <h3>Название проекта</h3>
-                    <p>Описание проекта</p>
-                    <button>Смотреть</button>
+                    <h3>Counter</h3>
+                    <p>Project description</p>
+                    <button><a href='https://fitkovich1.github.io/CounterRedux/'>Watch</a></button>
                 </div>
 
             </div>

@@ -12,7 +12,7 @@ function Contacts() {
             <input value='E-mail:'/>
           </div>
           <div className={styles.input}>
-            <textarea>Введите текст</textarea>
+            <textarea>Enter your text</textarea>
           </div>
         </div>
         <button className={styles.buttonSend}>Send</button>

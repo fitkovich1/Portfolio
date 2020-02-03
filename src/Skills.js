@@ -27,7 +27,7 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faReact}/>
                         </div>
                         <span className={styles.nameOfSkill}>React</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -35,7 +35,7 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faJs}/>
                         </div>
                         <span className={styles.nameOfSkill}>JavaScript</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -43,7 +43,7 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faHtml5}/>
                         </div>
                         <span className={styles.nameOfSkill}>HTML5</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                       {/* <span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -51,7 +51,7 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faCss3}/>
                         </div>
                         <span className={styles.nameOfSkill}>CSS</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -59,19 +59,19 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faGithubAlt}/>
                         </div>
                         <span className={styles.nameOfSkill}>Git Hub</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
                             <Icon className={styles.typeScriptLogoImage} icon={typescriptIcon} />
                         <span className={styles.nameOfSkill}>TypeScript</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
                         <Icon className={styles.reduxLogoImage} icon={reduxIcon} />
-                        <span className={styles.nameOfSkill}>Redux</span>
-                        <span className={styles.descriptionOfSkill}>Описание скила</span>
+                        <span className={styles.nameOfSkill}>Redux/Redux-Thunk</span>
+                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                 </div>
