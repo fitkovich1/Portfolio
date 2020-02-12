@@ -73,7 +73,6 @@ function Skills() {
                         <span className={styles.nameOfSkill}>Redux/Redux-Thunk</span>
                         {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
-
                 </div>
             </div>
         </div>

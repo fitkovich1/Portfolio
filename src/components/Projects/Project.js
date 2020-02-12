@@ -1,18 +1,18 @@
 import React from 'react';
 import styles from './Projects.module.css';
 
-function Project() {
+function Project(props) {
     return (<>
             <div className={styles.projects}>
                 <div className={styles.project}>
-                    <h2>01</h2>
-                    <h3>Joker-game</h3>
-                    <p>Project description</p>
-                    <button><a href='https://fitkovich1.github.io/dog-game/'>Watch</a></button>
+                    <h2>{props.id}</h2>
+                    <h3>{props.name}</h3>
+                    <p>{props.description}</p>
+                    <button><a href={props.href}>Watch</a></button>
                 </div>
             </div>
 
-            <div className={styles.projects}>
+            {/*<div className={styles.projects}>
                 <div className={styles.project}>
                     <h2>02</h2>
                     <h3>TodoList</h3>
@@ -37,7 +37,7 @@ function Project() {
                     <p>Project description</p>
                     <button><a href='https://fitkovich1.github.io/tic-tac-toe/'>Watch</a></button>
                 </div>
-            </div>
+            </div>*/}
         </>
     );
 }

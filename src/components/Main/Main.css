@@ -1,10 +1,23 @@
 .main{
-    min-height: 100vh;
     display: flex;
     justify-content: center;
-    background-image: url("http://www.zastavki.com/pictures/1024x600/2015/Backgrounds_Black_cubic_background_094966_27.jpg");
+    background-image: url(https://images.alphacoders.com/645/thumb-1920-64553.jpg);
     background-size: cover;
     background-position: center;
+    perspective: 50px;
+    background-attachment: fixed;
+    transform-style: preserve-3d;
+    padding-bottom: 100px;
+}
+.main:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.7;
 }
 .container{
     width: 80%;
@@ -17,8 +30,10 @@
     display: flex;
     flex-direction: column;
     color: white;
-    margin: 100px 0;
+    margin: 120px 0 100px;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 .hello{
     color: #909090;
@@ -59,8 +74,8 @@
 }
 
 .card {
-    width: 250px;
-    height: 355px;
+    width: 325px;
+    height: 426px;
     position: absolute;
     cursor: pointer;
     top: 50%;
@@ -87,6 +102,9 @@
 }
 
 .front {
+    background-image: url('../../common/images/Колясик2.png');
+    background-size: cover;
+    background-color: #656565;
     transform: perspective(600px) rotateY(0);
 }
 .front img {
@@ -139,7 +157,7 @@
     }
 
     .card{
-        top: 90%;
+        top: 65%;
     }
 }
 @media (max-width: 770px) {

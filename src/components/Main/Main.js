@@ -1,6 +1,7 @@
 import React from 'react';
 /*import styles from './Main.module.css';*/
 import './Main.css'
+import photo from '../../common/images/Колясик2.png'
 
 
 function Main() {
@@ -19,7 +20,7 @@ function Main() {
                 <div className="wrapper">
                     <div className="card">
                         <div className="front">
-                            <img src="https://upload.wikimedia.org/wikipedia/ru/d/da/%D0%90%D0%B2%D0%B0%D1%82%D0%B0%D1%80_3.jpg" alt="photo"/>
+                           {/* <img src={photo} alt="photo"/>*/}
                         </div>
                         <div className="back">
                             <div className="content">

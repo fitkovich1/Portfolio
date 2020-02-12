@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from './Header.module.css';
-import NavMenu from "./NavMenu";
+import styles from '../../components/Header/Header.module.css';
+import NavMenu from "../../components/Header/NavMenu/NavMenu";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDribbble, faReact,fab, } from "@fortawesome/free-brands-svg-icons";
 import {library} from "@fortawesome/fontawesome-svg-core";
