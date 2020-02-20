@@ -94,7 +94,7 @@
 .projects {
     position: relative;
     display: flex;
-    margin: 50px 6px;
+    margin: 50px 40px;
 }
 .projects:hover .project h2 {
     top: 10px;
@@ -136,6 +136,15 @@
     /*background: linear-gradient(#af36ff, #ff0070);*/
 }
 .projects:nth-child(4):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(5):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(6):before {
+    background: linear-gradient(#000000, #121212);
+}
+.projects:nth-child(7):before {
     background: linear-gradient(#000000, #121212);
 }
 

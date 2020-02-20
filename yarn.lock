@@ -978,10 +978,10 @@
   resolved "https://registry.yarnpkg.com/@iconify/icons-cib/-/icons-cib-1.0.0.tgz#658328bab311aebad320ce83804b911270195557"
   integrity sha512-M+EZfe47dO823foUyUOB6gd8a7AkAfTunrP8dwVru213kZGvUGVDCt0NxMBgDx2h35/Xhn9/1uJ3y19HYAXqqQ==
 
-"@iconify/icons-simple-icons@^1.0.21":
-  version "1.0.21"
-  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.21.tgz#97e86a40b42004d0a40b68f9bd87c8368c83a1bb"
-  integrity sha512-8Nek+5yc5s0obqt2iCI4J3WC18P6w8XCoI9qYvf/fEGvgOA0sPcnYQM6roa4+ihQItBql+oyIl2Gpm+KUl7oNQ==
+"@iconify/icons-simple-icons@^1.0.22":
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-simple-icons/-/icons-simple-icons-1.0.22.tgz#d41cad893dc10e59e506aa6ec1015353475e3524"
+  integrity sha512-uaSV2ckqCZr1eP0J5DqUKk+H9dRq0BJQAyqFUCudjj5AB+vShXTf/fU+cCvhEWFV7uDcm7M1TbcOLRyUQzxaQQ==
 
 "@iconify/react@^1.1.1":
   version "1.1.1"

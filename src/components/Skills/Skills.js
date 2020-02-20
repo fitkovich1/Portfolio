@@ -11,7 +11,7 @@ import {
     faReact} from "@fortawesome/free-brands-svg-icons";
 import { Icon, InlineIcon } from '@iconify/react';
 import typescriptIcon from '@iconify/icons-cib/typescript';
-import reduxIcon from '@iconify/icons-simple-icons/redux';
+import redux from '@iconify/icons-simple-icons/redux';
 
 library.add(faReact, fab);
 
@@ -27,7 +27,6 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faReact}/>
                         </div>
                         <span className={styles.nameOfSkill}>React</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -35,7 +34,6 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faJs}/>
                         </div>
                         <span className={styles.nameOfSkill}>JavaScript</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
@@ -43,15 +41,13 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faHtml5}/>
                         </div>
                         <span className={styles.nameOfSkill}>HTML5</span>
-                       {/* <span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
                         <div className={styles.cssLogoImage}>
                             <FontAwesomeIcon className={styles.icon} icon={faCss3}/>
                         </div>
-                        <span className={styles.nameOfSkill}>CSS</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
+                        <span className={styles.nameOfSkill}>CSS3</span>
                     </div>
 
                     <div className={styles.skill}>
@@ -59,19 +55,16 @@ function Skills() {
                             <FontAwesomeIcon className={styles.icon} icon={faGithubAlt}/>
                         </div>
                         <span className={styles.nameOfSkill}>Git Hub</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
                             <Icon className={styles.typeScriptLogoImage} icon={typescriptIcon} />
                         <span className={styles.nameOfSkill}>TypeScript</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
 
                     <div className={styles.skill}>
-                        <Icon className={styles.reduxLogoImage} icon={reduxIcon} />
+                        <Icon className={styles.reduxLogoImage} icon={redux} />
                         <span className={styles.nameOfSkill}>Redux/Redux-Thunk</span>
-                        {/*<span className={styles.descriptionOfSkill}>Описание скила</span>*/}
                     </div>
                 </div>
             </div>
@@ -80,3 +73,5 @@ function Skills() {
 }
 
 export default Skills;
+
+
