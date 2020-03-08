@@ -19,9 +19,7 @@ function Main() {
 
                 <div className="wrapper">
                     <div className="card">
-                        <div className="front">
-                           {/* <img src={photo} alt="photo"/>*/}
-                        </div>
+                        <div className="front"></div>
                         <div className="back">
                             <div className="content">
                                 <h1>
@@ -30,11 +28,11 @@ function Main() {
                                 </h1>
                                 <ul className="socials">
                                     <li>
-                                        <a href="https://vk.com/volleymen"><i className="fa fa-vk"></i></a>
-                                        <a href="https://www.instagram.com/nikola10fit_/"><i className="fa fa-instagram"></i></a>
-                                        <a href="https://github.com/fitkovich1"><i className="fa fa-github"></i></a>
-                                        <a href="https://t.me/Fitkovich_Nikolai"><i className="fa fa-telegram"></i></a>
-                                        <a href="https://wa.me/375292746603"><i className="fa fa-whatsapp"></i></a>
+                                        <a href="https://vk.com/volleymen" target='_blank'><i className="fa fa-vk"></i></a>
+                                        <a href="https://www.instagram.com/nikola10fit_/" target='_blank'><i className="fa fa-instagram"></i></a>
+                                        <a href="https://github.com/fitkovich1" target='_blank'><i className="fa fa-github"></i></a>
+                                        <a href="https://t.me/Fitkovich_Nikolai" target='_blank'><i className="fa fa-telegram"></i></a>
+                                        <a href="https://wa.me/375292746603" target='_blank'><i className="fa fa-whatsapp"></i></a>
                                     </li>
                                 </ul>
                             </div>
